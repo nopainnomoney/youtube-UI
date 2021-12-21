@@ -1,0 +1,83 @@
+:root {
+  --main-bg-color: black;
+  --main-text-color: white;
+  --accent-color: rgba(255, 255, 255, 0.904);
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main-bg-color);
+  padding: 8px 12px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar_logo i {
+  color: red;
+}
+
+.navbar_icons {
+  color: var(--accent-color);
+  display: flex;
+}
+
+.navbar_icons li {
+  padding-inline: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.info_metadata {
+  padding: 8px 12px;
+}
+
+.info_metadata_tags {
+  color: blue;
+  font-size: 13px;
+}
+
+.info_metadata_title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4px;
+}
+
+.info_metadata_views {
+  font-size: 10px;
+  color: rgb(139, 136, 136);
+  padding-top: 4px;
+}
+
+.info_actionicons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info_actionicons li {
+  display: flex;
+  padding: 8px 12px;
+  align-items: center;
+}
+
+.info_actionicons_list {
+  padding: 0;
+}
+
+.info_actionicons_list li .text {
+  font-size: 10px;
+}
+
+.info_user {
+  display: flex;
+  justify-content: space-between;
+}
