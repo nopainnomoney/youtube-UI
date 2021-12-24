@@ -67,8 +67,8 @@ header .icons .fa-search {
 }
 
 .player video {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   max-width: 1000px;
 }
 
@@ -219,4 +219,16 @@ body > .info {
 .upNext .item .info .views {
   font-size: var(--font-micro);
   color: var(--grey-dark-color);
+}
+
+.infoandupnext {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .infoandupnext {
+    flex-direction: row;
+    margin: var(--padding) 0;
+  }
 }
